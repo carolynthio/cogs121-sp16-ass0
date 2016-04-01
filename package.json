@@ -1,0 +1,24 @@
+{
+  "name": "cogs121-sp16-ass0",
+  "version": "1.0.0",
+  "description": "Creating a package.json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolynthio/cogs121-sp16-ass0.git"
+  },
+  "author": "Carolyn Thio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolynthio/cogs121-sp16-ass0/issues"
+  },
+  "homepage": "https://github.com/carolynthio/cogs121-sp16-ass0#readme",
+  "dependencies": {
+      "express": "4.13.4"
+  },
+  "devDependencies": {}
+}
