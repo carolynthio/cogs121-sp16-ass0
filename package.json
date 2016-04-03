@@ -4,6 +4,7 @@
   "description": "Creating a package.json",
   "main": "server.js",
   "scripts": {
+    "prestart": "mongod --dbpath dbpath --logpath log/mongod.log&",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/carolynthio/cogs121-sp16-ass0#readme",
   "dependencies": {
-      "express": "4.13.4"
+    "body-parser": "*",
+    "express": "4.13.4",
+    "express-handlebars": "*",
+    "mongodb": "^1.4.30",
+    "mongoose": "3.8.23"
   },
   "devDependencies": {}
 }
